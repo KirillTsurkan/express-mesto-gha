@@ -1,9 +1,3 @@
-// GET /cards — возвращает все карточки
-// POST /cards — создаёт карточку
-// DELETE /:cardId — удаляет карточку по идентификатору
-// PUT /cards/:cardId/likes — поставить лайк карточке
-// DELETE /cards/:cardId/likes — убрать лайк с карточки
-
 const router = require('express').Router();
 const {
   getCards,

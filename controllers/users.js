@@ -1,9 +1,3 @@
-// GET /users — возвращает всех пользователей
-// GET /users/:userId - возвращает пользователя по _id
-// POST /users — создаёт пользователя
-// PATCH /users/me — обновляет профиль
-// PATCH /users/me/avatar — обновляет аватар
-
 const User = require('../models/user');
 
 const ERROR_NOT_FOUND = 404;
